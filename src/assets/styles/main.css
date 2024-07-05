@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	--primary-color: #3498db;
+	--secondary-color: #2ecc71;
+	--text-color: #333;
+	--background-color: #f8f9fa;
+
+	font-family: Arial, sans-serif;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
